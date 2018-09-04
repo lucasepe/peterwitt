@@ -1,0 +1,47 @@
+<assembly>
+  <id>dist</id>
+  <formats>
+    <format>zip</format>
+  </formats>
+
+  <includeBaseDirectory>false</includeBaseDirectory>
+
+  <dependencySets>
+    <dependencySet>
+      <!--Include runtime dependencies-->
+      <outputDirectory>libs</outputDirectory>
+      <scope>runtime</scope>
+    </dependencySet>
+  </dependencySets>
+
+  <files>
+    <file>
+      <outputDirectory>./</outputDirectory>
+      <source>${project.build.directory}/${project.artifactId}-${project.version}.jar</source>
+      <destName>${project.artifactId}-${project.version}.jar</destName>
+    </file>
+  </files>
+
+  <fileSets>
+    <!--Get application resources-->
+    <fileSet>
+      <directory>libs</directory>
+      <outputDirectory>libs</outputDirectory>
+      <includes>
+        <include>*.jar</include>
+      </includes>
+    </fileSet>
+
+    <!--Get misc user files-->
+    <fileSet>
+      <directory>${project.basedir}</directory>
+      <outputDirectory>./</outputDirectory>
+      <includes>
+        <include>README*</include>
+        <include>LICENSE*</include>
+        <include>NOTICE*</include>
+      </includes>
+    </fileSet>
+  </fileSets>
+
+</assembly>
