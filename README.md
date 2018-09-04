@@ -1,7 +1,9 @@
 # PeterWitt
 
-[![Maven Central](https://img.shields.io/maven-central/v/io.github.lucasepe/peterwitt.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.lucasepe%22%20AND%20a:%22peterwitt%22)  ![Jar Size](https://img.shields.io/badge/jar%20size-%E2%89%8512kB-1a1aff.svg) ![No External Dependencies](https://img.shields.io/badge/external%20dependencies-none-008000.svg) [![GitHub license](https://img.shields.io/github/license/lucasepe/breezy.svg)](https://github.com/lucasepe/breezy/blob/master/LICENSE) 
+<!-- 
+[![Maven Central](https://img.shields.io/maven-central/v/io.github.lucasepe/peterwitt.svg?label=Maven%20Central)](https://search.maven.org/search?q=g:%22io.github.lucasepe%22%20AND%20a:%22peterwitt%22) ![Jar Size](https://img.shields.io/badge/jar%20size-%E2%89%8512kB-1a1aff.svg) ![No External Dependencies](https://img.shields.io/badge/external%20dependencies-none-008000.svg) [![GitHub license](https://img.shields.io/github/license/lucasepe/breezy.svg)](https://github.com/lucasepe/breezy/blob/master/LICENSE) 
 
+--> 
 
 ![PeterWitt](./peterwitt96.png)
 
@@ -12,6 +14,7 @@
 
 PeterWitt library is available from [Maven Central](https://search.maven.org/search?q=g:%22io.github.lucasepe%22%20AND%20a:%22peterwitt%22).
 
+<!--
 ```xml
 <dependency>
   <groupId>io.github.lucasepe</groupId>
@@ -19,7 +22,7 @@ PeterWitt library is available from [Maven Central](https://search.maven.org/sea
   <version>1.0.0</version>
 </dependency>
 ```
-
+-->
 ## Create an event
 
 ```java
